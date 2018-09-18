@@ -3,29 +3,29 @@ webpackJsonp([1],{
 /***/ 0:
 /***/ (function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(18);
+	module.exports = __webpack_require__(171);
 
 
 /***/ }),
 
-/***/ 18:
+/***/ 171:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	__webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"rc-color-picker/assets/index.less\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+	__webpack_require__(2);
 	
-	var _react = __webpack_require__(2);
+	var _react = __webpack_require__(3);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _reactDom = __webpack_require__(9);
+	var _reactDom = __webpack_require__(10);
 	
 	var _reactDom2 = _interopRequireDefault(_reactDom);
 	
-	var _rcColorPicker = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"rc-color-picker\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+	var _colourPickr = __webpack_require__(19);
 	
-	var _rcColorPicker2 = _interopRequireDefault(_rcColorPicker);
+	var _colourPickr2 = _interopRequireDefault(_colourPickr);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -37,7 +37,7 @@ webpackJsonp([1],{
 	  'div',
 	  { style: { textAlign: 'center' } },
 	  _react2.default.createElement(
-	    _rcColorPicker2.default,
+	    _colourPickr2.default,
 	    {
 	      color: '#36c',
 	      onChange: changeHandler

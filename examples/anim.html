@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>anim.js - example - colour-pickr@0.0.2</title>
+  <title>anim.js - example - colour-pickr@0.0.3</title>
   <meta name="viewport"
         content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
   <meta charset="utf-8"/>
@@ -257,13 +257,13 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
     document.writeln('<script src="https://as.alipayobjects.com/g/component/es6-promise/3.2.2/es6-promise.min.js"'+'>'+'<'+'/'+'script>');
   }
   </script>
-  
+  <link rel="stylesheet" href="common.css" />
 </head>
 
 <body>
   <div class="container">
     <div class="header">
-      <h1>colour-pickr@0.0.2</h1>
+      <h1>colour-pickr@0.0.3</h1>
 
       <p>color-picker ui component for react</p>
     </div>
@@ -271,10 +271,10 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
 
     <div class="highlight"><pre><code language="js">
 
-<span class="hljs-keyword">import</span> <span class="hljs-string">'rc-color-picker/assets/index.less'</span>;
+<span class="hljs-keyword">import</span> <span class="hljs-string">'colour-pickr/assets/index.css'</span>;
 <span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
 <span class="hljs-keyword">import</span> ReactDOM <span class="hljs-keyword">from</span> <span class="hljs-string">'react-dom'</span>;
-<span class="hljs-keyword">import</span> ColorPicker <span class="hljs-keyword">from</span> <span class="hljs-string">'rc-color-picker'</span>;
+<span class="hljs-keyword">import</span> ColorPicker <span class="hljs-keyword">from</span> <span class="hljs-string">'colour-pickr'</span>;
 
 <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">changeHandler</span>(<span class="hljs-params">colors</span>) </span>{
   <span class="hljs-built_in">console</span>.log(colors);

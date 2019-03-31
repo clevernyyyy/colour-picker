@@ -1,6 +1,6 @@
 {
   "name": "colour-pickr",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "color-picker ui component for react",
   "main": "./lib/index.js",
   "keywords": [

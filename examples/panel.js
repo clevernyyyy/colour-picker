@@ -1,7 +1,7 @@
-import 'rc-color-picker/assets/index.less';
+import 'colour-pickr/assets/index.less';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Panel as ColorPickerPanel } from 'rc-color-picker';
+import { Panel as ColorPickerPanel } from 'colour-pickr';
 
 function onChange(obj) {
   console.log(obj);

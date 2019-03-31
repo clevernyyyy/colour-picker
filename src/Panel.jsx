@@ -200,6 +200,6 @@ Panel.defaultProps = {
   onChange: noop,
   onFocus: noop,
   onMount: noop,
-  prefixCls: 'rc-color-picker-panel',
+  prefixCls: 'colour-pickr-panel',
   style: {},
 };

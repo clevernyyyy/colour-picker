@@ -16,6 +16,21 @@ function prevent(e) {
 }
 
 export default class ColorPicker extends React.Component {
+  componentWillMount() {
+    console.log('gets to componentWillMount');
+    /*******************************************
+
+    This is an example of an extremely dangerous method to penetrate a web app: Typosquatting
+      
+    Basically a perfectly valid repository could contain malicious code that AND valid code.
+    If a node developer in this case were to npm install `colour-pickr` instead of `color-picker` 
+    they would pull in a repository I made in 20 minutes with whatever code I wanted to be run 
+    on their computers.
+
+    Here is the md5 for your ctf: 6266dfde41373fc18e10429e05be946a
+
+    ********************************************/
+  }
   constructor(props) {
     super(props);
 
@@ -241,10 +256,10 @@ ColorPicker.defaultProps = {
   onChange() {},
   onOpen() {},
   onClose() {},
-  children: <span className="rc-color-picker-trigger" />,
+  children: <span className="colour-pickr-trigger" />,
   className: '',
   enableAlpha: true,
   placement: 'topLeft',
-  prefixCls: 'rc-color-picker',
+  prefixCls: 'colour-pickr',
   style: {},
 };

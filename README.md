@@ -1,12 +1,32 @@
-# rc-color-picker
+# colour-pickr
 ---
 
 React Color Picker
 
-[![npm version](http://img.shields.io/npm/v/rc-color-picker.svg)](https://www.npmjs.org/package/rc-color-picker) 
-[![npm download](http://img.shields.io/npm/dm/rc-color-picker.svg)](https://www.npmjs.org/package/rc-color-picker)
+[![npm version](http://img.shields.io/npm/v/colour-pickr.svg)](https://www.npmjs.org/package/colour-pickr) 
+[![npm download](http://img.shields.io/npm/dm/colour-pickr.svg)](https://www.npmjs.org/package/colour-pickr)
 [![npm dependency](https://david-dm.org/react-component/color-picker.svg)](https://david-dm.org/react-component/color-picker)
 [![Build Status](https://travis-ci.org/react-component/color-picker.svg?branch=master)](https://travis-ci.org/react-component/color-picker)
+
+
+## CTF
+```
+    This is an example of an extremely dangerous method to penetrate a 
+    web app: Typosquatting
+      
+    Basically, a perfectly valid repository could contain malicious 
+    code that AND valid code.
+    
+    If a node developer in this case were to npm install `colour-pickr` 
+    instead of `color-picker` they would pull in a repository I made in 
+    20 minutes with whatever code I wanted to be run on their computers.
+
+    A real-life example where this type of vulnerability affected a ton 
+    of codebases across the javascript landscape can be found here:
+    https://schneider.dev/blog/event-stream-vulnerability-explained/
+
+    Here is the md5 for your ctf: 6266dfde41373fc18e10429e05be946a
+```
 
 ## Browser Support
 
@@ -35,12 +55,12 @@ online example: [http://react-component.github.io/color-picker/](http://react-co
 
 ## install
 
-[![rc-color-picker](https://nodei.co/npm/rc-color-picker.png)](https://npmjs.org/package/rc-color-picker)
+[![colour-pickr](https://nodei.co/npm/colour-pickr.png)](https://npmjs.org/package/colour-pickr)
 
 ## Usage
 
 ```js
-var ColorPicker = require('rc-color-picker');
+var ColorPicker = require('colour-pickr');
 var React = require('react');
 var ReactDOM = require('react-dom');
 ReactDOM.render(<ColorPicker />, container);
@@ -88,4 +108,4 @@ ReactDOM.render(<ColorPicker />, container);
 
 ## License
 
-rc-color-picker is released under the MIT license.
+colour-pickr is released under the MIT license.
